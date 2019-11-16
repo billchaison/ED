@@ -61,7 +61,8 @@ echo $PT | xxd -r -p
 echo
 ```
 
-Execute the bash script supplying the hex-encoded password string as the argument, e.g. `ericsson-pwdecoder.sh 798909896149095131`
+Execute the bash script supplying the hex-encoded password string as the argument.<br />
+(e.g.) `ericsson-pwdecoder.sh 798909896149095131`
 
 The decoded password will be displayed:<br />
 ![alt text](https://github.com/billchaison/ED/blob/master/er2.png)
